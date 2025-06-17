@@ -125,7 +125,7 @@ def get_printers():
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
-    if message.chat.id == 815850294:
+    if message.chat.id == 71020088:
         #print("adsd")
         CallBackTG.callback_start(bot, message, "ADMINS" )
     else: 
